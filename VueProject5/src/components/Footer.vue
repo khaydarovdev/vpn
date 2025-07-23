@@ -122,9 +122,25 @@ export default {};
 	font-weight: 450;
 	transition: all 0.3s;
 	cursor: pointer;
+	position: relative;
+	display: inline-block;
+}
+.product h4::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 2.5px;
+	background-color: #f53838;
+	transition: width 0.3s ease-in-out;
+}
+
+.product h4:hover::after {
+	width: 100%;
 }
 .product h4:hover {
-	color: #000;
+	color: black;
 }
 .links {
 	display: flex;

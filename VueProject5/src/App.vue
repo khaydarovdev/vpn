@@ -41,6 +41,10 @@ export default {
 		Section5,
 		Footer,
 	},
+
+
+// Initialize Firebase
+
 };
 </script>
 <style scoped>

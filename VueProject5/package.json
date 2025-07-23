@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@splidejs/splide-extension-auto-scroll": "^0.5.3",
+    "firebase": "^11.2.0",
     "leaflet": "^1.9.4",
     "vue": "^3.5.13",
     "vue-marquee-slider": "^1.0.6",
